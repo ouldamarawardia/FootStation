@@ -1,0 +1,561 @@
+body {
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hh {
+    background-color: black;
+    overflow: hidden;
+}
+
+.hh h1 {
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 2.2rem;
+    margin-left: 7rem;
+}
+
+.hh a {
+    color: white;
+    text-decoration: none;
+}
+
+.hh .he {
+    color: white;
+    float: right;
+    margin-top: -4.4rem;
+    margin-right: 2rem;
+}
+
+.he a {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.he .comp:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.foot {
+    color: RED;
+    font-style: oblique;
+}
+
+
+/* navigator */
+
+nav {
+    margin: 0;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding: 1rem;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.15rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    list-style: none;
+    margin-bottom: .5rem;
+}
+
+nav ul ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.15rem;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    list-style: none;
+    margin-bottom: .5rem;
+}
+
+nav ul ul ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.15rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    list-style: none;
+    margin-bottom: .5rem;
+}
+
+nav ul a:hover,
+nav ul a:focus {
+    color: white;
+    cursor: pointer;
+}
+
+nav ul ul a:hover,
+nav ul ul a:focus {
+    color: white;
+    cursor: unset;
+}
+
+nav ul ul ul a:hover,
+nav ul ul ul a:focus {
+    color: red;
+    cursor: pointer;
+}
+
+nav ul ul {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 1.5rem;
+}
+
+nav li:hover ul {
+    visibility: visible;
+}
+
+nav ul {
+    background-color: black;
+}
+
+nav ul li ul li ul {
+    position: relative;
+    padding: 1rem;
+    margin: 0;
+    display: block;
+    float: none;
+    height: 15rem;
+    color: aquamarine;
+}
+
+.navi {
+    margin-top: 1.2rem;
+}
+
+.hr-slide {
+    display: none;
+}
+
+nav ul li ul {
+    height: 30rem;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+nav ul ul ul {
+    position: absolute;
+    float: none;
+}
+
+nav ul li ul li ul li {
+    display: list-item;
+    margin-left: -1.5rem;
+    color: aquamarine;
+}
+
+.show,
+.icon,
+input {
+    display: none;
+}
+
+#mn {
+    visibility: hidden;
+}
+
+
+/* video */
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.vid-style {
+    width: 80%;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+/* end video */
+
+
+/* end of navigator */
+
+.img-header {
+    display: flex;
+    justify-content: center;
+}
+
+.img-head {
+    width: 60%;
+}
+
+section {
+    padding: 4rem 0;
+    padding: 8rem;
+}
+
+
+/* pic collage */
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.pic-list {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.kit-pic {
+    width: 270px;
+    height: 295px;
+    margin-left: 10px;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+}
+
+.arrow {
+    font-size: 8rem;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 90px;
+    right: 0;
+    border: none;
+    color: rgb(17, 13, 13);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.butt-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.slidpic-text {
+    margin-top: 2rem;
+    color: white;
+    background-color: teal;
+    padding: 1.2rem 5.9rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* end of pic collage */
+
+
+/*   */
+
+.container-pic {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+}
+
+.pics-list {
+    display: block;
+}
+
+.text-pic {
+    text-align: center;
+    color: cornsilk;
+    margin-top: -2rem;
+    font-size: 1.1rem;
+}
+
+.slog {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.butt-pic {
+    color: white;
+    margin-top: -1rem;
+    font-size: 1.2rem;
+    padding: .6rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: rgb(20, 20, 20);
+    -ms-transform: scale(.9);
+    border: none;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.butt-pic:hover {
+    background-color: rgb(165, 47, 43);
+}
+
+button:hover span {
+    padding-right: 1.5rem;
+}
+
+button:hover span::after {
+    opacity: 1;
+}
+
+.pic-border:hover {
+    -ms-transform: scale(.9);
+    transform: scale(1.05);
+}
+
+.cl-pic {
+    width: 310px;
+    height: 300px;
+    margin: 2rem;
+    border-radius: 10%;
+}
+
+
+/*  */
+
+
+/* web site end*/
+
+.section-two {
+    background: black;
+    color: #fff;
+}
+
+.row {
+    text-align: center;
+    margin: .5rem;
+}
+
+.logo {
+    width: 80px;
+}
+
+.arena {
+    width: 65px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: .5rem;
+}
+
+.butt1 {
+    font-size: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    background-color: black;
+    color: seashell;
+}
+
+.butt2 {
+    font-size: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    background-color: black;
+    color: seashell;
+}
+
+.col {
+    font-size: 1rem;
+}
+
+.col-1 {
+    width: 30%;
+}
+
+.col-2 {
+    width: 40%;
+    padding-top: 1.5rem;
+}
+
+.col-2 a {
+    display: block;
+    padding: 1rem;
+}
+
+
+/* end of site end */
+
+@media screen and (max-width :1000px) {
+    .navi {
+        display: none;
+    }
+    .hr-slide {
+        display: block;
+        max-width: 35%;
+    }
+    .icon {
+        display: block;
+        color: white;
+        float: right;
+        margin-top: -3.8rem;
+        font-size: 1.5rem;
+    }
+    .he {
+        display: none;
+    }
+    .hh h1 {
+        margin-left: unset;
+        text-align: center;
+    }
+    nav {
+        margin: 0;
+    }
+    nav ul {
+        display: block;
+        margin: 0 auto;
+        list-style: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    nav ul li {
+        color: white;
+    }
+    .show {
+        display: list-item;
+        margin-top: 1rem;
+        color: white;
+        font-size: 1.15rem;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: 'Ubuntu', sans-serif;
+        border: none;
+        list-style: none;
+    }
+    nav .sp {
+        margin-top: 1rem;
+    }
+    nav ul ul li {
+        cursor: pointer;
+        margin: 0 auto;
+        list-style: none;
+    }
+    nav ul ul {
+        visibility: unset;
+        position: relative;
+    }
+    nav ul li ul {
+        height: unset;
+    }
+    nav ul ul ul {
+        position: relative;
+        display: none;
+    }
+    nav ul ul li {
+        text-align: center;
+    }
+    nav ul ul ul li {
+        text-align: center;
+    }
+    nav ul li ul li ul li {
+        margin-left: -.5rem;
+    }
+    nav ul ul li {
+        padding: 12px 10px;
+        text-decoration: none;
+        display: block;
+        margin: 0 auto;
+    }
+    nav ul ul ul {
+        display: inline-block;
+        margin-left: 2rem;
+        color: aquamarine;
+    }
+    nav ul li ul li ul {
+        display: none;
+        height: unset;
+    }
+    .show+a,
+    nav ul {
+        display: none;
+    }
+    section {
+        display: none;
+    }
+    [id^=btn]:checked+ul {
+        display: block;
+    }
+}
+
+
+/*[id^=check]:checked + nav ul{
+        display: block;
+    }
+    nav ul ul{
+        display: none;
+    }
+    [id^=btn]:checked + nav ul ul{
+        display: block;
+    }*/
+
+
+/*nav li{
+        margin-top: 2rem;
+    }
+       
+    nav ul ul li{
+        display: none;
+    } */
+
+
+/*
+
+
+    [id^=btn]:checked + ul li{
+        display: block;
+    }*/
+
+@media only screen and (max-width: 1000px) {
+    .slide-hov {
+        visibility: hidden;
+    }
+    .show:hover .slide-hov {
+        visibility: visible;
+    }
+    .slide-min {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .column {
+        flex-direction: column;
+    }
+    .col {
+        width: 100%;
+    }
+}
